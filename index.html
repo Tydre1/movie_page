@@ -1,59 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./styles/styles.css"/>
-  <title>Amei assistir esse Filme</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+  <title>Filmes</title>
 </head>
 
-<body>
+<!-- nav header -->
   <header class="cabecalho">
-    <nav class="cabecalho_menu">
-      <a class="cabecalho_link" href="./index.html">Home</a>
-      <a class="cabecalho_link" href="./sobre.html">Sobre</a>
+    <nav class="links">
+      <a href="./index.html">Home</a>
+      <a href="./sobre.html">Sobre</a>
     </nav>
   </header>
 
+<body>
+
   <main class="conteudo">
 
-    <div class="conteudo_introducao">
-      <h1>Filmes que amei</h1>
-      <p>
-        Quando você clicar no filme vai conseguir ver a sinopse do filme e
-        conseguirá a avaliação dele pelo site do IMDb oficial.
-      </p>
+    <div class="conteudo-textos-introducao">
+      <h1 class="conteudo-titulo">Filmes Maravilhoso</h1>
+      <p class="conteudo-subtitulo">Este é o site aonde você conseguirá ver os filmes que mais amei assistir</p>
     </div>
 
-    <div>
-      <h2 class="conteudo_posters_titulo">Lista de Filmes</h2>
-    </div>
+    <!-- links das paginas dos links -->
+    <div class="conteudo-filme">
+      <nav class="conteudo-filme-links">
 
-    <div class="conteudo_posters_links">
-      <a class="conteudo_posters_links" href="./films/filme_interstellar.html"><img src="./assets/interstellar.jpg"
-          alt="Filme Interstellar" /></a>
-      <a class="conteudo_posters_links" href="./filme_ilha_do-medo.html"><img src="./assets/ilha_do-medo.jpg"
-          alt="Filme Ilha do Medo" /></a>
-      <a class="conteudo_posters_links" href="./films/filme_john-wick3.html"><img src="./assets/john_wick3.jpg"
-          alt="John Wick 3" /></a>
-      <a class="conteudo_posters_links" href="./films/filme_django_livre.html"><img src="./assets/django.jpg"
-          alt="Django Livre" /></a>
-      <a class="conteudo_posters_links" href="./films/filme_avatar_2.html"><img src="./assets/avatar2.jpg"
-          alt="Avatar - O Caminho da Água" /></a>
-      <a class="conteudo_posters_links" href="./films/filme_galaxy_guardians_3.html"><img
-          src="./assets/galaxy_guardians_3.jpg" alt="Guardiões da Galaxia 3" /></a>
-      <a class="conteudo_posters_links" href="./films/filme_spiderman_spiderverse.html"><img
-          src="./assets/spider-man_spiderverse.jpg" alt="Homem-Aranha no Aranha-Verso" /></a>
+        <img src="./assets/avatar2.jpg" alt="Banner Avatar 2"><a class="conteudo-filme-links"  
+        href="./films/filme_avatar_2.html">Avatar 2</a>
 
+        <img src="./assets/django.jpg" alt="Banner Django: Livre"><a class="conteudo-filme-links"  
+        href="./films/filme_django_livre.html">Django: Livre</a>
+
+        <img src="./assets/galaxy_guardians_3.jpg" alt="Banner Guardiões da Galaxia 3"><a class="conteudo-filme-links"  
+        href="./films/filme_galaxy_guardians_3.html">Guardiões da Galaxia 3</a>
+
+        <img src="./assets/ilha_do-medo.jpg" alt="Banner Ilha do Medo" ><a class="conteudo-filme-links" 
+        href="./films/filme_ilha_do-medo.html">Ilha do Medo</a>
+
+        <img src="./assets/interstellar.jpg" alt="Banner Interestellar"><a class="conteudo-filme-links"  
+        href="./films/filme_interstellar.html">Interestellar</a>
+
+        <img src="./assets/john_wick3.jpg" alt="Banner John Wick 3"><a class="conteudo-filme-links" 
+        href="./films/filme_john-wick3.html">John Wick 3</a>
+
+        <img src="./assets/spider-man_spiderverse.jpg" alt="Banner Homem-Aranha: Através do Aranha-Verso"><a class="conteudo-filme-links"  
+        href="./films/filme_spiderman_spiderverse.html">Homem-Aranha: Através do Aranha-Verso</a>
+
+      </nav>
     </div>
 
   </main>
+
+  <!-- javascript part -->
+<script src=""></script>
+
 </body>
 
-<footer class="rodape">
-  Pensado e Programado por André Barbosa
-</footer>
+<div class="rodape">
+  <h3>Denvolvido por André Barbosa</h3>
+  <nav>
+    <a src="" alt="" href="https://www.linkedin.com/in/andr%C3%A9-barbosa229/" target="_blank">LinkedIn</a>
+    <a src="" alt="" href="https://www.instagram.com/andrehenrique135/" target="_blank">Instagram</a>
+    <a src="" alt="" href="https://www.behance.net/andrbarbosa26" target="_blank">Behance</a>
+  </nav>
+</div>
 
 </html>

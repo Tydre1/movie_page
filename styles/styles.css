@@ -1,60 +1,9 @@
-* {
+*{
     margin: 0;
     padding: 0;
+    box-sizing: 0;
 }
 
 body {
-    box-sizing: border-box;
-    background-color: rgb(134, 51, 145);
-    color: white;
-}
-
-.cabecalho {
-    padding: 2% 0% 0% 5%;
-}
-
-.cabecalho_menu {
-    display: flex;
-    gap: 40px;
-}
-
-.cabecalho_link {
-    color: white;
-    text-decoration: none;
-}
-
-.conteudo {
-    padding: 2% 0% 0% 5%;
-    width: auto;
-}
-
-.conteudo_introducao {
-    padding: 2% 0% 0% 5%;
-}
-
-.conteudo_posters_links {
-
-    padding: 2% 0% 0% 5%;
-}
-
-.conteudo_posters_titulo {
-    display: flex;
-    justify-content: center;
-    padding: 1%;
-}
-
-@media (max-width: 1480px) {
-    .cabecalho {
-        padding: 10%;
-    }
-}
-
-.rodape {
-    color: rgb(134, 51, 145);
-    background-color: white;
-    padding: 24px;
-    text-align: center;
-    align-items: end;
-    font-size: 1.5rem;
-    font-weight: 400;
+    background: radial-gradient(circle, rgba(102,121,208,1) 26%, rgba(179,218,193,1) 100%);;
 }
